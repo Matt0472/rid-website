@@ -13,8 +13,10 @@
     <div id="app">
         <div class="page-wrapper">
             @include('layouts.partials._top-nav')
-            @include('layouts.partials._header')
-            @include('layouts.partials._main')
+            <div class="main-wrapper">
+                @include('layouts.partials._header')
+                @include('layouts.partials._main')
+            </div>
             @include('layouts.partials._footer')
         </div>
     </div>

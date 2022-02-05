@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
-@charset "UTF-8";
+@charset "UTF-8";.navbar-top-wrapper{background-color:blue;height:70px;position:fixed;width:100px;width:100%;z-index:1001}.jumbo{background-color:#deb887;height:400px}.jumbo,.main-content{margin:0 auto;width:85%}.main-content{background-color:#8a2be2;height:500px}footer.page-footer{background-color:brown;height:120px}*{box-sizing:border-box;margin:0;padding:0}.main-wrapper{background-color:#7fffd4}
+
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
