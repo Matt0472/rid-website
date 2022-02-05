@@ -1,4 +1,16 @@
 footer.page-footer {
-    background-color: brown;
-    height: 120px;
+    background-color: #000;
+    height: 350px;
+    .footer-wrapper {
+        display: flex;
+        width: 85%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 100%;
+        .footer-box {
+            margin: 0 15px;
+            width: calc(100% / 3);
+        }
+    }
 }
