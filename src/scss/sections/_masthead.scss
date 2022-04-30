@@ -14,7 +14,7 @@ header.masthead {
     }
 
     @include media-breakpoint-up(lg) {
-        height: 100vh;
+        // height: 100vh;
         min-height: 40rem;
         padding-top: $navbar-height;
         padding-bottom: 0;
@@ -35,6 +35,7 @@ header.masthead {
     }
 
     .big-video-jumbo {
+        background-color: #F4623A;
         #myVideo {
             width: 100%;
             height: 100%;
